@@ -30,7 +30,7 @@
     <script src="js/html5shiv.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body onload="load();">
     <div class="preloader">
       <div class="cssload-container">
         <svg class="filter" version="1.1">
@@ -556,8 +556,6 @@
                           </ul>
                         </div>
                         <div class="pricing-footer"><a class="button button-primary" href="#">TOPICS</a>&nbsp;&nbsp;<a class="button button-primary" style="background-color: black;" href="#contact">ENROLL</a></div>
-                        <div class="pricing-footer"><a class="button button-primary" href="#">TOPICS</a>&nbsp;&nbsp;<a class="button button-primary" style="background-color: black;" href="#contact">ENROLL</a></div>
-
                       </div>
                     </div>
             </div>
@@ -1414,6 +1412,14 @@
         document.getElementById("msg").disabled=true;
 
         return;
+      }
+    </script>
+    <script type="text/javascript">
+      var load=function(){
+        var x = document.getElementById("ui-to-top");
+        x.classList.add("fa"); 
+        x.classList.add("fa-whatsapp");  
+        x.setAttribute("style", "font-size: 2em;");
       }
     </script>
 
