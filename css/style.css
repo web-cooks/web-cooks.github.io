@@ -6324,13 +6324,13 @@ h4+.owl-carousel {
 }
 .rd-navbar,
 .rd-navbar.rd-navbar--is-clone {
-	display:none
+	display:none; 
 }
 .rd-navbar-fixed,
 .rd-navbar-static,
 .rd-navbar-fullwidth,
 .rd-navbar-sidebar {
-	display:block
+	display:block;
 }
 .rd-navbar--no-transition,
 .rd-navbar--no-transition * {
@@ -6604,9 +6604,9 @@ h4+.owl-carousel {
 	display:none
 }
 .rd-navbar .rd-navbar-nav>li>a {
-	font-size:12px;
+	font-size:14px;
 	line-height:1.28;
-	font-weight:400;
+	font-weight:500;
 	text-transform:uppercase;
 	letter-spacing:.05em
 }
@@ -6869,7 +6869,7 @@ h4+.owl-carousel {
 .rd-navbar-static .rd-navbar-megamenu>li {
 	position:relative;
 	display:table-cell;
-	padding:40px 20px 40px 35px
+	padding:10px 20px 10px 35px
 }
 .rd-navbar-fullwidth .rd-navbar-megamenu>li+li:before,
 .rd-navbar-static .rd-navbar-megamenu>li+li:before {
@@ -7623,7 +7623,7 @@ h4+.owl-carousel {
 	-webkit-flex-direction:column;
 	-ms-flex-direction:column;
 	flex-direction:column;
-	padding:21px 0;
+	padding:0px 0;
 	min-height:100px;
 	transition:.33s all ease
 }
@@ -7983,9 +7983,9 @@ h4+.owl-carousel {
 }
 .rd-navbar-static.rd-navbar--is-stuck .rd-navbar-inner,
 .rd-navbar-static.rd-navbar--is-clone .rd-navbar-inner {
-	min-height:74px;
+	min-height:74px;/*
 	padding-top:12px;
-	padding-bottom:12px
+	padding-bottom:12px*/
 }
 .rd-navbar-static.rd-navbar--is-stuck .rd-navbar-nav>li>.rd-navbar-dropdown,
 .rd-navbar-static.rd-navbar--is-stuck .rd-navbar-nav>li .rd-navbar-megamenu,
@@ -8230,7 +8230,7 @@ h4+.owl-carousel {
 	z-index:17
 }
 .rd-navbar-fixed .rd-navbar-brand img {
-	height:24px;
+	height:75px;
 	width:auto
 }
 .rd-navbar-fixed .rd-navbar-panel {
@@ -8315,7 +8315,7 @@ h4+.owl-carousel {
 	text-align:left
 }
 .rd-navbar-fixed .rd-navbar-nav>li>a {
-	font-size:12px;
+	font-size:14px;
 	line-height:1.5
 }
 .rd-navbar-fixed .rd-navbar-nav li {
@@ -8362,7 +8362,7 @@ h4+.owl-carousel {
 .rd-navbar-fixed .rd-megamenu-list>li>a,
 .rd-navbar-fixed .rd-navbar-dropdown>li>a {
 	padding:9px 56px 9px 16px;
-	font-size:12px;
+	font-size:14px;
 	line-height:1.5
 }
 .rd-navbar-fixed .rd-megamenu-list>li+li,
@@ -8515,7 +8515,7 @@ h4+.owl-carousel {
 	opacity:0;
 	visibility:hidden;
 	transition:.23s all ease-out;
-	font-size:12px;
+	font-size:14px;
 	line-height:1.4;
 	background:#fff;
 	border:1px solid #ececee;
